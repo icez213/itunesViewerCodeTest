@@ -37,10 +37,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   flutter_riverpod: ^2.5.1
-  dio: ^5.5.0+1
   intl: any
   freezed_annotation: ^2.4.1
   json_annotation: ^4.0.1
+  http: ^1.2.1
 
 dev_dependencies:
   json_serializable: ^6.7.1

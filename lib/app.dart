@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itunesviewr/features/search/view/home_page.dart';
+// import 'package:itunesviewr/features/search/view/home_page.dart';
+import 'package:itunesviewr/features/search/view/song_list_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
             seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Flutter Demo Home Page'),
+      home: const SongListPage(),
     );
   }
 }
